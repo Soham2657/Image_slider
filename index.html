@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div  class="slide-wrapper" id="sliderWrapper">
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-title">Mountain Views</div>
+                        <div class="slide-description">Breathtaking landscapes that inspire adventure and tranquility</div>  
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-title">Nature's Beauty</div>
+                        <div class="slide-description">Discover the serene wilderness and untouched natural wonders</div>  
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-title">Forest Paths</div>
+                        <div class="slide-description">Journey through ancient forests and hidden trails</div>  
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-title">Mountain Peaks</div>
+                        <div class="slide-description">Reach new heights and embrace the spirit of exploration</div>  
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-title">Alpine Paradise</div>
+                        <div class="slide-description">Experience the majesty of towering peaks and pristine wilderness</div>  
+                </div>
+            </div>
+            </div>
+            <button class="nav-button prev" id="prevBtn">&#10094</button>
+            <button class="nav-button next" id="nextBtn">&#10095</button>
+            <div class="dots-container">
+                <div class="dot active" data-slide="1"></div>
+                <div class="dot" data-slide="2"></div>
+                <div class="dot" data-slide="3"></div>
+                <div class="dot" data-slide="4"></div>
+                <div class="dot" data-slide="5"></div>
+            </div>
+            <div class="controls">
+                <button class="controller" id="playBtn">Play</button> 
+                <button class="controller" id="pauseBtn">Pause</button>
+            </div>
+        </div>
+
+    <script src="slider.js"></script>
+</body>
+</html>
